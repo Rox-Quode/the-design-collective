@@ -1,0 +1,115 @@
+/* Fonts Used 
+font-family: 'Source Sans Pro', sans-serif;
+font-weights: 200,300,400, 600 (normal & italic) */
+
+/* 
+
+    colors: 
+    rust #c29880
+    dark-rust: #a2745c
+    green: #c29880
+
+    og rust = #c29880;
+
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img { max-width: 100%; }
+
+[class*=grid] {
+    margin:0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Temporary Styles */
+
+* {
+    padding: 0.5rem;
+    border: 2px solid rgb(200,200,200);
+}
+
+html,
+body {
+    border: none;
+}
+
+h1,h2,h3,h4,h5,h6,a,p {
+    border: 2px solid rgb(209, 93, 93);
+}
+
+.bg-image {
+    background-color:rgb(95, 144, 236)
+}
+
+/* End Temporary Styles */
+
+/* Universal Classes */
+
+.tall-50 { min-height: 50vh; }
+.tall-60 { min-height: 60vh; }
+.tall-70 { min-height: 70vh; }
+.tall-80 { min-height: 80vh; }
+.tall-90 { min-height: 90vh; }
+
+
+.padded    { padding: 5%;    }
+.padded-1  { padding: 1rem;  }
+.padded-2  { padding: 2rem;  }
+
+
+.padded-t  { padding-top: 5%;     }
+.padded-b  { padding-bottom: 5%;  }
+.padded-l  { padding-left: 5%;    }
+.padded-r  { padding-right: 5%;   }
+
+.padded-0   { padding: 0; }
+.padded-b-0 { padding-bottom: 0; }
+.margin-b-0 { margin-bottom: 0; }
+
+
+.bg-rust          { background-color: #d3b4a2;  }
+.bg-green         { background-color: #9b9b81;  }
+.bg-dark-rust     { background-color: #a2745c;  }
+.bg-dark-footer   { background-color: #3f4238;  }
+
+.light-text { color: white; } 
+
+
+.left   { text-align: left; }
+.center { text-align: center; }
+.right  { text-align: right; }
+
+/* Typography styles */
+
+/* Header & Footer Styles */
+
+/* Image Styles */
+
+.bg-image {
+    background-color: #c29880;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/images/plant.jpg');
+}
+
+.bg-plant  {  
+    background-image: url('/images/plant.jpg');
+    background-position: 50% 43%;
+   }
+
+.bg-plant-2              {  background-image: url('/images/plant-2.jpg'); }
+.bg-meeting              {  background-image: url('/images/meeting.jpg'); }
+.bg-mockup               {  background-image: url('/images/mockup.jpg');  }
+.bg-placeholder-project  {  background-image: url('/images/placeholder-project.png'); }
+
+/* Responsive Styles */
