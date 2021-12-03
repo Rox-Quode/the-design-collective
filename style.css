@@ -199,7 +199,9 @@ footer h3 {font-size: 1.3rem; }
     .bg-plant-2 {
         background-image: url('/images/plant-2-light.png')
     }
-    footer h2, h3, p{ font-weight: 200; }
+    footer h2,
+    footer h3,
+    footer p { font-weight: 200; }
 
     .parallax { background-attachment: scroll; }
 }
