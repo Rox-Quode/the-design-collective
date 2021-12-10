@@ -207,6 +207,5 @@ footer h3 {
     .bg-plant-2 {
         background-image: url('/images/plant-2-light.png')
     }
-
     .parallax { background-attachment: scroll; }
 }
