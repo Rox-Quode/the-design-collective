@@ -121,7 +121,7 @@ a { color: inherit; }
 
 nav a { 
     text-decoration: none;
-    padding: 0.5rem;
+    padding-left: 1rem;
  }
 
  .button {
@@ -144,6 +144,7 @@ nav a {
 .las {
     font-size: 2.5rem;
     opacity: 0.8;
+
 }
 /* Header & Footer Styles */
 
@@ -153,9 +154,17 @@ footer a:hover { color: #cdb4a7;}
 
 footer .lab { font-size: 1.5rem; }
 
-footer p {line-height: 1; }
+footer h2 { font-weight: 300; }
 
-footer h3 {font-size: 1.3rem; }
+footer p {
+    line-height: 1;
+    font-weight: 200;
+}
+
+footer h3 {
+    font-size: 1.3rem;
+    font-weight: 300; 
+}
 
 /* Image Styles */
 
@@ -182,6 +191,7 @@ footer h3 {font-size: 1.3rem; }
 
 .fixed { background-attachment: fixed; }
 
+.parallax { background-attachment: scroll; }
 
 /* Responsive Styles */
 
@@ -199,9 +209,5 @@ footer h3 {font-size: 1.3rem; }
     .bg-plant-2 {
         background-image: url('/images/plant-2-light.png')
     }
-    footer h2,
-    footer h3,
-    footer p { font-weight: 200; }
 
-    .parallax { background-attachment: scroll; }
 }
