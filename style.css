@@ -194,7 +194,7 @@ footer h3 {
   
   .mobile-menu {
     display: none;
-    background-color: #494738;
+    background-color: #a2745c;
     padding: 5%;
     position: fixed;
     text-align: center;
@@ -209,7 +209,7 @@ footer h3 {
     font-size: 1.5rem;
     display: block;
     padding: 5vh 5%;
-    color: #F2FEDC;
+    color: #f7e4f3;
     font-weight: normal;
   }
   
