@@ -190,8 +190,8 @@ footer h3 {
 
   /* .hamburger-button.active {
     color: #F2FEDC;
-  }
-   */
+  } */
+  
   .mobile-menu {
     display: none;
     background-color: #494738;
@@ -202,6 +202,7 @@ footer h3 {
     bottom: 0;
     left: 0;
     right: 0; 
+    z-index: 2;
   }
   
   .mobile-menu a{
