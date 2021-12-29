@@ -188,9 +188,9 @@ footer h3 {
   
   /* Styles that apply when mobile menu is active */
 
-  /* .hamburger-button.active {
-    color: #F2FEDC;
-  } */
+  .hamburger-button.active {
+    color: #f7e4f3;
+  }
   
   .mobile-menu {
     display: none;
@@ -208,7 +208,8 @@ footer h3 {
   .mobile-menu a{
     font-size: 1.5rem;
     display: block;
-    padding: 5vh 5%;
+    padding: 7%;
+    margin-top: 1rem;
     color: #f7e4f3;
     font-weight: normal;
   }
