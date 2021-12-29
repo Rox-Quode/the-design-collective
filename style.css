@@ -150,6 +150,11 @@ nav a {
 
 header { padding: 2% 5%; }
 
+header [class*=col] {
+    padding: 0;
+  }
+  
+
 footer a:hover { color: #cdb4a7;}
 
 footer .lab { font-size: 1.5rem; }
@@ -176,17 +181,17 @@ footer h3 {
     line-height: 0.8;
     cursor: pointer;
     position: fixed;
-    right: 1rem;
-    top: 1.6rem;
+    right: 0.5rem;
+    top: 0.3rem;
     z-index: 2;
   }
   
   /* Styles that apply when mobile menu is active */
 
-  .hamburger-button.active {
+  /* .hamburger-button.active {
     color: #F2FEDC;
   }
-  
+   */
   .mobile-menu {
     display: none;
     background-color: #494738;
