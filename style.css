@@ -166,6 +166,48 @@ footer h3 {
     font-weight: 300; 
 }
 
+/* Hamburger Menu Styles */
+
+.hamburger-button {
+    display: inline-block;
+    padding: 0.5rem;
+    font-weight: 200;
+    font-size: 2.5rem;
+    line-height: 0.8;
+    cursor: pointer;
+    position: fixed;
+    right: 1rem;
+    top: 1.6rem;
+    z-index: 2;
+  }
+  
+  /* Styles that apply when mobile menu is active */
+
+  .hamburger-button.active {
+    color: #F2FEDC;
+  }
+  
+  .mobile-menu {
+    display: none;
+    background-color: #494738;
+    padding: 5%;
+    position: fixed;
+    text-align: center;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+  }
+  
+  .mobile-menu a{
+    font-size: 1.5rem;
+    display: block;
+    padding: 5vh 5%;
+    color: #F2FEDC;
+    font-weight: normal;
+  }
+  
+
 /* Image Styles */
 
 .bg-image {
@@ -193,10 +235,17 @@ footer h3 {
 
 /* Responsive Styles */
 
+.mob-show{
+    display: none;
+  }
+
 /* SM - max-width 48em aprox 768px */
 
 @media(max-width: 48em){
 
+    .mob-show {display: block; }
+    .mob-hide {display: none;  }
+    
     .hide-sm { display: none; } 
     .center-sm { text-align: center; }
     .flex-flip-sm { flex-direction: column-reverse; }

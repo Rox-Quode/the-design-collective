@@ -21,6 +21,9 @@
          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
          <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet" />
         
+         <!-- Animate CSS -->
+         <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+         
          <!-- My own custom stylesheet -->
          <link rel="stylesheet" href="/style.css" />
     </head>
@@ -31,19 +34,31 @@
             <div class="col-6_sm-12-middle center-sm">
                 <h1> The Design Collective </h1>
             </div>
-            <nav class="col-6_sm-12-middle right center-sm">
+            <nav class="col-6_sm-12-middle right center-sm mob-hide">
                 <a href="#why-us"> Why Us </a>
                 <a href="#services"> Services </a>
                 <a href="#projects"> Projects </a>
                 <a href="#connect"> Connect </a>
             </nav>
+            <div class="col-6 right mob-show">
+                <a class="hamburger-button">  &#9776; </a>
+                <div class="mobile-menu mob-show">
+                    <nav>
+                        <a href="#why-us"> Why Us </a>
+                        <a href="#services"> Services </a>
+                        <a href="#projects"> Projects </a>
+                        <a href="#connect"> Connect </a>
+                    </nav>
+                </div>
+            </div>
+
         </header>
 
         <!-- Banner Section -->
         <section class="grid-middle bg-image bg-plant padded tall-70 fixed parallax">
             <div class="col-8_sm-10">
                 <h2 class="editable">
-                    Web design &amp; development that helps your business grow
+                    Web design &amp; development <br> that helps your business grow
                 </h2>
                 <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam omnis assumenda deleniti, dicta non provident fugiat animi, facilis ad consequatur laboriosam! Delectus quaerat, earum sunt eum ratione incidunt quae hic.</p>
             </div>
@@ -181,6 +196,8 @@
                 <p class="subtle"> Copyright 2021 </p>
             </div>
         </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     </body>
 
 </html>
