@@ -148,6 +148,12 @@ nav a {
     opacity: 0.8;
 }
 
+.shopify-heading {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5%;
+}
+
 /* Header & Footer Styles */
 
 header { padding: 2% 5%; }
