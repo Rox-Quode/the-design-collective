@@ -89,6 +89,20 @@ h1,h2,h3,h4,h5,h6,a,p {
 .center { text-align: center; }
 .right  { text-align: right; }
 
+.capped-width {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.capped-width-narrow {
+    max-width: 900px;
+    margin: auto;
+}
+
+.flex-flip-alternate:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
 /* Typography styles */
 
 body { 
@@ -225,11 +239,15 @@ footer h3 {
 /* Image Styles */
 
 .bg-image {
-    background-color: #c29880;
+    background-color: #9b9b81;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('/images/plant.jpg');
+}
+
+.profile-image {
+    border-radius: 100%;
 }
 
 .bg-light {
