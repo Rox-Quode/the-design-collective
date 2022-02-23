@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <!-- The title for SEO & browser tabs -->
+         <title> Portfolio Website </title>
+
+         <!-- Viewport meta tag -->
+         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+         <!-- Gridlex -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css" />
+         
+         <!-- Fontawesome -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         
+         <!-- Lineawesome -->
+         <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
+         
+         <!-- Google Fonts> -->
+         <link rel="preconnect" href="https://fonts.googleapis.com" />
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet" />
+        
+         <!-- Animate on scroll -->
+         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+         <!-- My own custom stylesheet -->
+         <link rel="stylesheet" href="/style.css" />
+    </head>
+
+    <body>
+        <!-- Header Section -->
+        <header class="grid">
+            <div class="col-5_sm-12-middle">
+                <a class="logo" href="/index.html">
+                    <h1> The Design Collective </h1>
+                </a>
+            </div>
+            <nav class="col-7_sm-12-middle right mob-hide">
+                <a href="/shop.html"> Shop </a>
+                <a href="/index.html"> Why Us </a>
+                <a href="/about.html"> About </a>
+                <a href="/services.html"> Services </a>
+                <a href="/portfolio.html"> Portfolio </a>
+                <a href="/contact.html"> Contact </a>
+            </nav>
+            <div class="col-7 right mob-show">
+                <a class="hamburger-button">  &#9776; </a>
+            </div>
+        </header>
+
+        <!-- Mobile Menu (hidden on desktop)-->
+        <div class="mobile-menu">
+            <nav>
+                <a href="/shop.html"> Shop </a>
+                <a href="/index.html"> Why Us </a>
+                <a href="/about.html"> About </a>
+                <a href="/services.html"> Services </a>
+                <a href="/portfolio.html"> Portfolio </a>
+                <a href="/contact.html"> Contact </a>
+            </nav>
+        </div>
+
+        {{content}}
+
+        <!-- Footer  -->
+        <footer class="grid bg-dark-footer light-text padded padded-b-0" id="contact">
+            <div class="col-12 center-sm">
+                <h2 class="logo"> The Design Collective </h2>
+                <h3> Web Design & Development </h3>
+            </div>
+            <div class="col-6_sm-12-bottom center-sm">
+                <h3> Find Us At </h3>
+                <p> <a href="mailto: hello@thedesigncollective.com"> <strong> Email: hello@thedesigncollective.com </strong></a></p>
+                <p> <a href="phone: +62 458 008 66787"> <strong> Ph.: +62 458 008 66787 </strong></a></p>
+            </div>
+            <div class="col-6_sm-12-bottom right center-sm">
+                <h3> Let's Connect </h3>
+                <nav>
+                    <a href="#"> <i class="lab la-instagram"></i> </a>
+                    <a href="#"> <i class="lab la-twitter"></i> </a>
+                    <a href="#"> <i class="lab la-pinterest"></i> </a>
+                    <a href="#"> <i class="lab la-facebook"></i> </a>
+                </nav>               
+            </div>
+            <div class="col-12 center padded-t">
+                <p class="subtle"> Copyright 2021 </p>
+            </div>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src='index.js'></script>
+    </body>
+
+</html>
