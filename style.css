@@ -166,6 +166,10 @@ nav a {
     opacity: 0.8;
 }
 
+.emphasis {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
 
 /* Header & Footer Styles */
 
@@ -272,6 +276,26 @@ footer h3 {
 .bg-placeholder-project  {  background-image: url('/images/placeholder-project.png'); }
 
 .fixed { background-attachment: fixed; }
+
+/* Responsive Video */
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+ }
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 /* Responsive Styles */
 
