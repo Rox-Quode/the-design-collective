@@ -107,6 +107,11 @@ h1,h2,h3,h4,h5,h6,a,p {
     flex-direction: row-reverse;
 }
 
+.right-arrow {
+    max-width: 2.5rem;
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+}
 /* Typography styles */
 
 body { 
@@ -283,6 +288,7 @@ footer h3 {
      background-image: url('/images/plant-2.jpg'); 
      background-position: 50% 48%;
 }
+
 .bg-meeting              {  background-image: url('/images/meeting.jpg'); }
 .bg-mockup               {  background-image: url('/images/mockup.jpg');  }
 .bg-placeholder-project  {  background-image: url('/images/placeholder-project.png'); }
@@ -332,5 +338,6 @@ footer h3 {
     .bg-plant-2 {
         background-image: url('/images/plant-2-light.png')
     }
+   
     .parallax { background-attachment: scroll; }
 }
