@@ -3,9 +3,8 @@ layout: default
 ---
 
 <!-- Projects Section -->
-
 <section class="padded bg-green grid">
-    <div class="col-9 light-text padded-b"> 
+    <div class="col-9_sm-12 light-text padded-b"> 
         <h2> We design & create but if you have a design of your own, let us know! </h2>
         <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, sit. Eius molestiae eaque nam quaerat optio dolor tenetur nobis et placeat veritatis totam, non cupiditate modi facere. Voluptatem, qui obcaecati.</p>
     </div>
@@ -26,13 +25,11 @@ layout: default
 </section>
 
 <!-- Newsletter Section -->
-
 {% include newsletter-signup.html %}
 
 <!-- Featured Project Section -->
-
 <section class="bg-green padded">
-    <h2 class="center"> Featured Project </h2>
+    <h2 class="center margin-b-2"> Featured Project </h2>
 
     <div class="capped-width">
 
@@ -40,11 +37,11 @@ layout: default
         <div class="bg-image landscape margin-b-2" style="background-image: url('{{project.featured_image}}')"> </div>
         
         <div class="grid-spaceBetween">
-            <div class="col-5 padded-1">
+            <div class="col-5_sm-12 padded-1">
                 <h3>{{project.title}}</h3>
                 <p class="emphasis">{{project.description}}</p>
             </div>
-            <div class="col-4 padded-1">
+            <div class="col-4-middle_sm-12 padded-1">
                 <p class="emphasis"> Design by: {{project.design-by}}</p>
                 <p class="emphasis"> Built by: {{project.built-by}}</p>
                 <a href="{{project.live_url}}" class="button" target="_blank"> View Live Site </a>                
