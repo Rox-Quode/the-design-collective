@@ -332,6 +332,14 @@ footer h3 {
     .center-sm { text-align: center; }
     .flex-flip-sm { flex-direction: column-reverse; }
 
+    .small-text {
+        font-size: 1.8rem;
+    }
+
+    .padded-sm {
+        padding: 1rem;
+    }
+
     .bg-plant { 
         background-image: url('/images/plant-light.png')
     }
