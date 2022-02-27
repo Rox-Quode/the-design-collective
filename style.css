@@ -85,7 +85,7 @@ h1,h2,h3,h4,h5,h6,a,p {
 .bg-dark-rust     { background-color: #a2745c;  }
 .bg-dark-footer   { background-color: #161813;  }
 
-.light-text     { color: #e9e9c6; } 
+.light-text     { color: #fcfcdc; } 
 /* .dark-grey-text { color: #252422; } */
 
 
@@ -112,6 +112,47 @@ h1,h2,h3,h4,h5,h6,a,p {
     margin-left: 1rem;
     margin-top: 0.2rem;
 }
+
+/* Contact Form */
+
+
+form input,
+form textarea {
+  width: 100%;
+  margin: 0.5rem 0; 
+  padding: 0.5rem;
+  border: 2px solid #a2745c;
+  outline: none; 
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #9b9b81;
+}
+
+textarea {
+  min-height: 5rem;
+  resize: vertical;
+}
+
+form label {
+  margin-top: 1rem;
+  display: block;
+  color: #a2745c;
+  font-weight: bold;
+}
+
+form button{
+    border: 2px solid #a2745c;
+    background: none;
+    color: #a2745c;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+}
+
 /* Typography styles */
 
 body { 
@@ -314,6 +355,7 @@ footer h3 {
     width: 100%;
     height: 100%;
 }
+
 
 /* Responsive Styles */
 
