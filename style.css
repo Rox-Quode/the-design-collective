@@ -391,3 +391,22 @@ footer h3 {
    
     .parallax { background-attachment: scroll; }
 }
+
+/* Light Mode */
+
+@media (prefers-color-scheme: light) {
+    :root {
+      --body-bg: #fcfcdc;
+      --body-color: #161813;
+    }
+  }
+  
+  /* Dark Mode */
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --body-bg: #161813;
+      --body-color: #fcfcdc;
+    }
+  }
+  
